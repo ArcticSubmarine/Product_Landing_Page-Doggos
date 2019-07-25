@@ -1,0 +1,162 @@
+/*  
+  Made by Clarisse Tarrou
+  Project : Product Landing Page - Doggos
+  Date : 07.25.2019 
+  Github/CodePen: ArcticSubarine;
+*/
+
+header{
+  font-family: verdana;
+  color: black;
+  dislay: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+/* Navigation bar */
+#nav-bar{
+  display: block;
+  align-self: flex-end;
+  margin: 0%;
+  padding: 0%;
+}
+
+#header-img{
+  position: absolute;
+  max-width: 8%;
+  display: block;
+  height: auto;
+  align-self: flex-end;
+  margin: 0%;
+  padding: 0%;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0%;
+  overflow: hidden;
+  background-color: white;
+}
+
+ul li{
+  float: left;
+}
+
+ul li a{
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 0.6em;
+  padding: 1em;
+}
+
+ul li a:hover{
+  background-color: DarkGrey;
+  color: white;
+}
+
+#home-button{
+  padding-left: 7.5em;
+}
+
+/* End of navigation bar */
+
+/* Home */
+
+#home{
+  color: black;
+  padding: 3%;
+}
+
+#home-question{
+  font-family: verdana;
+  display: flex;
+  justify-content: space-around;
+  font-size: 450%;
+  margin-top: 8%;
+}
+
+#home-img{
+  max-width: 30%;
+  display: block;
+  text-align: center;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0%;
+}
+
+/* Contact */
+#form{
+  margin-top: 2%;
+  text-align: center;
+  font-family: verdana;
+  display: flex;
+  justify-content: space-around;
+  background-color: #d6cecc;
+}
+
+
+#submit{
+  background-color: black;
+  font-size: 50%;
+  padding: 0.5%;
+  border: none;
+  align-self: center;
+}
+
+#submit-link{
+    color: white;
+    text-decoration: none;
+}
+
+#submit:hover{background-color: silver;}
+
+#question{
+  font-size: 200%;
+  padding-top: 2em;
+  align-self: center;
+}
+
+#email{
+  font-size: 60%;
+  align-self: center;
+  margin-bottom: 15%;
+}
+
+input:invalid {
+  border: 2px dashed red;
+}
+
+
+/* Video */
+#video-text{
+  font-family: verdana;
+  display: flex;
+  justify-content: space-around;
+  font-size: 150%;
+  margin-top: 8%;
+}
+
+iframe{
+  display: block;
+  align-self: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  background-color: black;
+}
+
+
+/* Media query */
+
+@media (min-weight: 800px){
+  iframe{
+    width: 322;
+    height: 181;
+  }
+}
