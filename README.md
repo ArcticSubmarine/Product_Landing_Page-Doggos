@@ -5,4 +5,4 @@ This project is a part of the FreeCodeCamp curriculum focusing on responsive web
 
 User story of the project here --> https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page
 
-![alt text](https://raw.githubusercontent.com/ArcticSubmarine/FAKE_Personnal_Portfolio/master/Doggos.PNG)
+![alt text](https://raw.githubusercontent.com/ArcticSubmarine/FAKE_Personnal_Portfolio/master/Portfolio.PNG)
